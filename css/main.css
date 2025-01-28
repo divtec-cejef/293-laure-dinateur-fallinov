@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fdfffc;
+    color: #011627;
+    font-size: 100%;
+    line-height: 1.4;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Changa One", cursive;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: .75em;
+}
+
+p {
+    line-height: 1.5;
+}
+
+a {
+    color: #e71d36 ;
+    text-decoration: none;
+}
+
+
