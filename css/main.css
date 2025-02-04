@@ -34,8 +34,6 @@
     src: url('../fonts/open-sans-v40-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-
-
 * {
     box-sizing: border-box;
 }
@@ -115,5 +113,23 @@ header nav ul li {
 
 header nav ul .hide {
     display: none;
+}
+
+header nav ul li a {
+    color: #fdfffc;
+    font-weight: 800;
+}
+
+/* Liens survolés et actifs en bleu */
+header nav ul li a:hover,
+header nav ul li.actif a
+{
+    color: #2ec4b6;
+}
+
+/* Pied de page du site */
+footer {
+    text-align: center;
+    margin: 50px 0; /* 50px en haut et en bas */
 }
 
