@@ -127,6 +127,11 @@ header nav ul li.actif a
     color: #2ec4b6;
 }
 
+/* Contenu principal */
+main {
+    padding: 0 5%; /* 5% à gauche et à droite */
+}
+
 /* Pied de page du site */
 footer {
     text-align: center;
@@ -168,3 +173,38 @@ footer nav ul li img:hover {
         transform: scale(1);
     }
 }
+
+/* Page contact */
+
+.page-contact ul.contacts {
+    list-style-type: none;
+}
+
+.page-contact ul.contacts li {
+    background-color: red;
+    margin-bottom: .5em;
+}
+
+.page-contact ul.contacts a {
+    background-color: yellow;
+    padding-left: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
