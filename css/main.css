@@ -133,3 +133,38 @@ footer {
     margin: 50px 0; /* 50px en haut et en bas */
 }
 
+footer nav ul {
+    list-style-type: none; /* On enlève les puces */
+    padding: 0; /* On enlève les marges intérieures */
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+footer nav ul li img {
+    width: 50px;
+    height: 50px;
+    filter: grayscale(100%);
+    transition: all 1s;
+    animation: beat 1s infinite;
+}
+
+footer nav ul li img:hover {
+    filter: grayscale(0);
+    transform: rotate(-10deg);
+}
+
+/* Simule un battement de coeur */
+@keyframes beat {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
