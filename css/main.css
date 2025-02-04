@@ -145,5 +145,24 @@ footer nav li {
 
 footer nav img {
     max-height: 50px;
+    filter: grayscale(100%);
+    transition: all 1s;
+    animation: battements 1s infinite;
+}
+
+footer nav img:hover {
+    filter: grayscale(0);
+}
+
+@keyframes battements {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1) rotate(-20deg);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
