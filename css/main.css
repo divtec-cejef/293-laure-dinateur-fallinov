@@ -94,3 +94,56 @@ header .logo .metier {
     margin-top: -5px;
 }
 
+header nav {
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none; /* Supprime les puces */
+    padding: 0; /* Supprimer la marge intérieure de gauche */
+}
+
+header nav li {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+header nav ul li.accueil {
+    display: none;
+}
+
+header nav a {
+    color: #fdfffc;
+    font-weight: 800;
+}
+
+header nav a:hover,
+header nav a.actif {
+    color: #2EC4B6;
+}
+
+/* Contenu principal */
+main {
+    padding: 0 5%;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    margin: 50px 0;
+}
+
+footer nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+footer nav img {
+    max-height: 50px;
+}
+
