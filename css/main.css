@@ -175,20 +175,35 @@ footer nav ul li img:hover {
 }
 
 /* Page contact */
-
 .page-contact ul.contacts {
     list-style-type: none;
 }
 
 .page-contact ul.contacts li {
-    background-color: red;
     margin-bottom: .5em;
 }
 
 .page-contact ul.contacts a {
-    background-color: yellow;
     padding-left: 30px;
+    background-image: url("../img/phone.png");
+    background-repeat: no-repeat;
+    background-size: 20px 20px; /* largeur hauteur */
+    background-position: 0 2px; /* position horizontale verticale */
+}
 
+/* Lien qui commence par "mailto" */
+.page-contact ul.contacts a[href^="mailto"] {
+    background-image: url("../img/mail.png");
+}
+
+/* Lien qui contient "twitter" */
+.page-contact ul.contacts a[href*="twitter"] {
+    background-image: url("../img/twitter.png");
+}
+
+/* Lien qui contient "facebook" */
+.page-contact ul.contacts a[href*="facebook"] {
+    background-image: url("../img/facebook.png");
 }
 
 
