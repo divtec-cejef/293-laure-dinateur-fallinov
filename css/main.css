@@ -49,6 +49,11 @@ body {
     margin: 0;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 h1,
 h2,
 h3,
@@ -204,6 +209,28 @@ footer nav ul li img:hover {
 /* Lien qui contient "facebook" */
 .page-contact ul.contacts a[href*="facebook"] {
     background-image: url("../img/facebook.png");
+}
+
+/* Page accueil */
+
+/* Conteneur Flexbox */
+.page-accueil .realisations {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Acrive le Flexbox */
+    flex-wrap: wrap; /* Les éléments passent à la ligne si besoin */
+}
+
+/* Les éléments du conteneur Flexbox */
+.page-accueil .realisations li {
+    flex-basis: 50%; /* Largeur de base 50% */
+    flex-grow: 2; /* Prend 2 fois plus de place */
+    padding: 10px;
+}
+
+.page-accueil .realisations figure {
+    margin: 0;
 }
 
 
