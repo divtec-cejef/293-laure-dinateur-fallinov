@@ -184,8 +184,9 @@ footer nav img:hover {
 }
 /* Elements Flexbox */
 .page-index .realisations li {
-    max-width: 50%;
-    padding: 10px;
+    flex-basis: 50%; /* Taille de base */
+    flex-grow: 2; /* Taille max en nombre d'éléments */
+    padding: 10px; /* Marge, espace entre les éléments */
 }
 
 /* Suppression des marges par défaut des figures */
