@@ -193,3 +193,38 @@ footer nav img:hover {
 .page-index .realisations figure {
     margin: 0;
 }
+
+/**********************************************
+  MEDIA QUERIES
+***********************************************/
+
+/* Pour les écrand de >= 480px */
+@media screen and (min-width: 480px) {
+    /* Elements Flexbox */
+    .page-index .realisations li {
+        flex-basis: calc(100% / 3); /* Taille de base */
+    }
+}
+
+/* Pour les écrand de >= 660px */
+@media screen and (min-width: 660px) {
+    /* Elements Flexbox */
+    .page-index .realisations li {
+        flex-basis: calc(100% / 4); /* Taille de base */
+    }
+}
+
+
+/* Pour les écrand de >= 980px */
+@media screen and (min-width: 980px) {
+    main {
+        background-color: darkviolet;
+    }
+}
+
+@media print {
+    header,
+    footer {
+        display: none;
+    }
+}
